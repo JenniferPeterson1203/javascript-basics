@@ -38,17 +38,27 @@ JavaScript has several built-in data types:
 ### **Lesson 5: Complex Data Types**  
 - **Pass by Reference vs. Pass by Value**  
 - `null` vs `undefined`  
+ 
 
-### **Lesson 6: Objects and the Prototype Chain**  
-- Everything in JavaScript is based on objects  
-- Understanding JavaScript objects  
-- How the **prototype chain** works  
+### **Lesson 6: Array** 
+- What are arrays?
+- Array Methods
 
-### **Lesson 7: Functions**  
+### **Lesson 7: Loops** 
+- For loops
+- For of loops
+- For in loop
+
+### **Lesson 8: Functions**  
 - Function **declaration** vs **expression**  
 - **Hoisting** and its effects  
 
-### **Lesson 8: Memory Management in JavaScript**  
+### **Lesson 9: Objects and the Prototype Chain**  
+- Everything in JavaScript is based on objects  
+- Understanding JavaScript objects  
+- How the **prototype chain** works 
+
+### **Lesson 10: Memory Management in JavaScript**  
 - How JavaScript manages memory  
 - Garbage collection  
 
