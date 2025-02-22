@@ -1,3 +1,14 @@
 What is a string?
 
-A string is a
+In javascript, a string is a sequence of of characters used to represent text. Strings are 
+immutable, meaning their contents cannot be changed after creation. Strings can be enclosed in:
+
+- Single quotes (' ')
+- Double Quotes (" ")
+- Template Literals (``)
+
+String Methods & Properties
+
+String Methods:
+
+String Methods are properties 

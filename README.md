@@ -48,17 +48,33 @@ JavaScript has several built-in data types:
 - For loops
 - For of loops
 - For in loop
+- While loops
 
 ### **Lesson 8: Functions**  
 - Function **declaration** vs **expression**  
 - **Hoisting** and its effects  
 
-### **Lesson 9: Objects and the Prototype Chain**  
+### **Lesson 9: Data Structures and Algorithms**
+- Arrays
+- Hashmaps
+- Stacks
+- Queue
+- Linked Lists
+
+### **Lesson 10: Advanced Algorithms and Time/ Space Complexity**
+- Two Pointers
+- Sliding Windows
+- Dynamic Programming 
+- Binary Search
+- Memoization
+
+### **Lesson 11: Objects and the Prototype Chain**  
 - Everything in JavaScript is based on objects  
 - Understanding JavaScript objects  
+- Properties vs. Methods in JavaScript
 - How the **prototype chain** works 
 
-### **Lesson 10: Memory Management in JavaScript**  
+### **Lesson 12: Memory Management in JavaScript**  
 - How JavaScript manages memory  
 - Garbage collection  
 
