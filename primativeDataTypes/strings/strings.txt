@@ -28,4 +28,6 @@ Methods on the String object:
 .toLowerCase()
 .concat()
 .charAt()
-.index();
+.index()
+
+Let's look at some examples in './primitiveDataTypes/strings/strings.js'
