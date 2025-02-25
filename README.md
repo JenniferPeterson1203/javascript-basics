@@ -88,9 +88,13 @@ This course is perfect for:
 
 ---
 
+If you can't explain it simply enough, you don't understand it well enough
+- Albert Einstein 
+
 ## 🎉 Get Started  
 Clone this repository and start learning! 🚀  
 
 ```bash
 git clone https://github.com/DiandreMiller/javascript-basics.git
 cd javascript-basics
+
