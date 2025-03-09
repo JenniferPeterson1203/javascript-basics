@@ -91,7 +91,7 @@ This course is perfect for:
 If you can't explain it simply enough, you don't understand it well enough
 - Albert Einstein 
 
-## 🎉 Get Started  
+## 🎉 Get Started!  
 Clone this repository and start learning! 🚀  
 
 ```bash
