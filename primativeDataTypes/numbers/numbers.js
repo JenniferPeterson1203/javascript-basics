@@ -1,3 +1,8 @@
+console.log('Number:', Number);
+console.log('Number.Prototype:', Number.prototype);
+console.log('Object.getOwnPropertyNames:', Object.getOwnPropertyNames(Number.prototype));
+
+
 //Write a function that returns whether a number is even or odd
 function isEvenOrOdd(num) {
     
