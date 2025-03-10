@@ -1,6 +1,6 @@
 console.log('String:', String);
-console.log('String:', String.prototype);
-console.log('String1:', Object.getOwnPropertyNames(String.prototype));
+console.log('String.Prototype:', String.prototype);
+console.log('Object.getOwnPropertyNames:', Object.getOwnPropertyNames(String.prototype));
 
 
 //Write a function that takes a string as input and returns the string reversed.
