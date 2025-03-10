@@ -2,6 +2,17 @@
 
 In JavaScript, a **number** is a primitive data type used to represent numeric values. Unlike some other programming languages, JavaScript has only **one** number type, which can represent both **integers** and **floating-point** values.
 
+## How Numbers Are Stored in Memory
+
+In JavaScript, all numbers (except **BigInt**) are stored using the **IEEE 754** 64-bit floating-point format. This means:
+
+- Every number, whether an integer or a decimal, takes up **64 bits (8 bytes)** in memory.
+- The 64 bits are split into three parts:
+  - **1 bit** for the sign (positive or negative).
+  - **11 bits** for the exponent (controls the number's size).
+  - **52 bits** for the fraction (stores the actual digits).
+- This format enables JavaScript to handle large and small numbers but can cause **precision errors** (e.g., `0.1 + 0.2 !== 0.3`).
+
 ## Number Methods and Properties
 
 ### Understanding the Difference Between Methods and Properties
