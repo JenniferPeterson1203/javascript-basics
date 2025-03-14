@@ -40,12 +40,6 @@ Statically typed languages perform type checking at **compile-time**. This means
 - **C++**
 - **Go**
 
-### Example in Java:
-```java
-int x = 10;
-x = "Hello"; // Compilation error: incompatible types
-System.out.println(x);
-```
 
 ---
 
@@ -91,3 +85,4 @@ console.log(str + " apples"); // Output: "100 apples"
 Dynamically typed languages offer **flexibility**, making them ideal for **rapid development and prototyping**. However, they come with **runtime errors** and **performance issues**.
 
 Statically typed languages provide **stronger type safety** and **better performance**, making them suitable for **large-scale applications and production environments**.
+
