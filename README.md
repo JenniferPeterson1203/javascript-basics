@@ -47,7 +47,7 @@ JavaScript has several built-in data types:
 ### **Lesson 7: Loops** 
 - For loops
 - For of loops
-- For in loop
+- For in loops
 - While loops
 
 ### **Lesson 8: Functions**  

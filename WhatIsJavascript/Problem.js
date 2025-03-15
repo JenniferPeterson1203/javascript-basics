@@ -21,5 +21,26 @@
 // nums is sorted in non-decreasing order.
 
 function sortedSquares(nums) {
-    
-};
+
+    const sortedArray = new Array(nums.length);
+
+    let start = 0;
+    let end = nums.length - 1;
+    let placement = nums.length - 1;
+
+    const squaredArray = nums.map((number) => number * number);
+
+    while(start <= end) {
+        if(squaredArray[start] < squaredArray[end]) {
+            sortedArray[placement] = squaredArray[end];
+        } else {
+            sortedArray[placement] = squaredArray[start];
+        }
+        placement++;
+    }
+
+    return sortedArray;
+
+}
+
+console.log('sortedSquares:', sortedSquares([-7,-3,2,3,11]));
