@@ -164,3 +164,13 @@ console.log(nums + str);
 **B.** `"4210"`  
 **C.** `Error: Type mismatch`  
 **D.** `4210`  
+
+## 21. Why are you able to use the split function on a string but not a number? (short answer)
+
+## 22. Why does console.log(0.1 + 0.2 === 0.3); return false?
+
+## 23. What is the difference between == and === in JavaScript?
+
+## 24. Why does console.log(5 == "5"); return true but console.log(5 === "5"); return false?
+
+## 25. Why does console.log([] == false); return true?
