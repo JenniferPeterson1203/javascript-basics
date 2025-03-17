@@ -31,10 +31,10 @@
 
 ## 5. What will `typeof null` return?
 
-**A.** "null"  
-**B.** "undefined"  
-**C.** "object"  
-**D.** "number"  
+**A.** `null`  
+**B.** `undefined`  
+**C.** `object`  
+**D.** `number`  
 
 ## 6. Which of the following is NOT a valid way to declare a function?
 
@@ -158,8 +158,9 @@ console.log(nums + str);
 let nums: number = 42;
 let str: string = '10';
 console.log(nums + str);
+```
 
-A. 52
-B. "4210"
-C. Error: Type mismatch
-D. 4210
+**A.** `52`  
+**B.** `"4210"`  
+**C.** `Error: Type mismatch`  
+**D.** `4210`  
