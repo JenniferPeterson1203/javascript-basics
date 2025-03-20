@@ -24,9 +24,10 @@
 // 0 <= k <= 105
  
 var rotate = function(nums, k) {
-    
+
 };
 
+console.log('rotate:', rotate([1,2,3,4,5,6,7], 14));
 // Given an integer array nums, return true if any value appears at least twice in the array, and 
 // return false if every element is distinct.
 
@@ -118,3 +119,5 @@ function mergeArrays(nums1, nums2) {
 }
 
 console.log('mergeArrays:', mergeArrays([2, 4, 7, 10], [2, 3]));
+
+
