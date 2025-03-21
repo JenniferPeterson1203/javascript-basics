@@ -27,7 +27,7 @@ var rotate = function(nums, k) {
 
 };
 
-console.log('rotate:', rotate([1,2,3,4,5,6,7], 14));
+console.log('rotate:', rotate([1,2,3,4,5,6,7], 3));
 // Given an integer array nums, return true if any value appears at least twice in the array, and 
 // return false if every element is distinct.
 
@@ -67,8 +67,12 @@ console.log('rotate:', rotate([1,2,3,4,5,6,7], 14));
 // -109 <= nums[i] <= 109
 
 function containsDuplicate(nums) {
+
+    return nums.length !== Array.from(new Set(nums)).length;
     
 };
+
+console.log('containsDuplicate:', containsDuplicate([1,1,1,3,3,4,3,2,4,2]));
 
 // Given an array nums of n integers where nums[i] is in the range [1, n], return an array of 
 // all the integers in the range [1, n] that do not appear in nums.
@@ -94,6 +98,8 @@ function containsDuplicate(nums) {
 function findDisappearedNumbers(nums) {
 
 };
+
+console.log('findDisappearedNumbers:', findDisappearedNumbers([4,3,2,7,8,2,3,1]));
 
 // Given two sorted arrays nums1 and nums2, merge them into one sorted array.
 
@@ -121,3 +127,35 @@ function mergeArrays(nums1, nums2) {
 console.log('mergeArrays:', mergeArrays([2, 4, 7, 10], [2, 3]));
 
 
+// Given an array of integers arr, return true if and only if it is a valid mountain array.
+
+// Recall that arr is a mountain array if and only if:
+
+// arr.length >= 3
+// There exists some i with 0 < i < arr.length - 1 such that:
+// arr[0] < arr[1] < ... < arr[i - 1] < arr[i] 
+// arr[i] > arr[i + 1] > ... > arr[arr.length - 1]
+
+// Example 1:
+// Input: arr = [2,1]
+// Output: false
+
+// Example 2:
+// Input: arr = [3,5,5]
+// Output: false
+
+// Example 3:
+// Input: arr = [0,3,2,1]
+// Output: true
+
+//Example 4: 
+// Input: arr = [0,2,3,4,5,2,1,0];
+// Output: true
+
+// Example 5: 
+// Input: arr = [0,2,3,3,5,2,1,0];
+// Output: false
+
+function validMountainArray(arr) {
+    
+};
