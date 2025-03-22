@@ -40,6 +40,5 @@ function updateNestedArray(data) {
 
   console.log('addSumArray2:', addSumArray2([1,2,3,4,5]));
 
- 
 
- 
+  

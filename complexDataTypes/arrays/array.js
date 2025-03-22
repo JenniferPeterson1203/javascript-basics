@@ -27,7 +27,7 @@ var rotate = function(nums, k) {
 
 };
 
-console.log('rotate:', rotate([1,2,3,4,5,6,7], 3));
+console.log('rotate:', rotate([1,2,3,4,5,6,7], 17));
 // Given an integer array nums, return true if any value appears at least twice in the array, and 
 // return false if every element is distinct.
 
@@ -67,10 +67,9 @@ console.log('rotate:', rotate([1,2,3,4,5,6,7], 3));
 // -109 <= nums[i] <= 109
 
 function containsDuplicate(nums) {
+   
+}
 
-    return nums.length !== Array.from(new Set(nums)).length;
-    
-};
 
 console.log('containsDuplicate:', containsDuplicate([1,1,1,3,3,4,3,2,4,2]));
 
