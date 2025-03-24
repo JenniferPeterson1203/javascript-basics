@@ -158,3 +158,4 @@ console.log('mergeArrays:', mergeArrays([2, 4, 7, 10], [2, 3]));
 function validMountainArray(arr) {
     
 };
+
